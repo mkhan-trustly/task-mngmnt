@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/tasks
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0  # 100% sampling for development
+otel:
+  exporter:
+    otlp:
+      endpoint: http://localhost:4318

@@ -1,0 +1,12 @@
+POST /tasks/{taskId}
+Content-Type: application/json
+
+{
+  "title": "Fix Water Leakage",
+  "description": "Leak in the kitchen",
+  "deadline": "2025-02-15T10:00:00Z",
+  "assigneeId": "tnn123",
+  "features": {
+    "checklist": ["Turn off water supply", "Replace pipe"]
+  }
+}
