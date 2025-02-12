@@ -158,7 +158,12 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFhazcwMCIsIm5hbWUiOiJUaW0gRG9lIiw
 
 Go to swagger and click on right top [Authorize]
 http://localhost:8080/swagger-ui/index.html
- 
+
+### Improvements
+- We should be able to see all the operations performed on a Task. For this we need strong auditing, we can consider Event Sourcing or at-least we should have a change log approach. 
+- We talked about relational database vs NoSQL
+- Of-course we need to use a real IdP.
+
 ### FAQs
 - Todo: A todo is a simple reminder of something that needs to be done. Todos are typically smaller, more immediate, and often personal or routine. 
 - Task: A task is a specific unit of work that may involve multiple steps, and is typically part of a larger project or goal. Often requires planning, resources and collaboration.
